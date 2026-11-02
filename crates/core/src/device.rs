@@ -57,7 +57,7 @@ pub fn device_description(id: &DeviceIdentity, base: &str) -> String {
     <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
     <friendlyName>{name}</friendlyName>
     <manufacturer>{mfr}</manufacturer>
-    <manufacturerURL>https://github.com/mingminghome/csvtv-receiver</manufacturerURL>
+    <manufacturerURL>https://github.com/mingminghome/castify</manufacturerURL>
     <modelDescription>Receives photo, audio, video, and web URLs on the local network</modelDescription>
     <modelName>{model}</modelName>
     <modelNumber>{number}</modelNumber>

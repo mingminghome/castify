@@ -99,7 +99,7 @@ Load `libcastify.so` and call the C functions or the JNI methods below.
 ### Rust
 
 ```toml
-castify-core = { git = "https://github.com/mingminghome/csvtv-receiver", tag = "v0.1.0" }
+castify-core = { git = "https://github.com/mingminghome/castify", tag = "v0.1.0" }
 ```
 
 ```rust

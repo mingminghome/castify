@@ -6,7 +6,7 @@ members = ["crates/core", "crates/ffi", "crates/cli"]
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/mingminghome/csvtv-receiver"
+repository = "https://github.com/mingminghome/castify"
 rust-version = "1.74"
 
 [workspace.dependencies]
