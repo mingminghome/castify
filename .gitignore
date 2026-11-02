@@ -1,4 +1,6 @@
 /target
 **/*.rs.bk
 .DS_Store
+__pycache__/
+*.pyc
 # Keep Cargo.lock for reproducible Android builds.
