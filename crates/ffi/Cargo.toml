@@ -1,0 +1,19 @@
+[package]
+name = "castify-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "C ABI and Android JNI for the castify DLNA library"
+rust-version.workspace = true
+
+[lib]
+name = "castify"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+castify-core.workspace = true
+log.workspace = true
+
+[target.'cfg(target_os = "android")'.dependencies]
+jni = "0.21"
+android_logger = "0.14"

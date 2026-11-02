@@ -1,0 +1,15 @@
+[package]
+name = "castify"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Desktop DLNA MediaRenderer that prints play, pause, stop, and volume"
+rust-version.workspace = true
+
+[[bin]]
+name = "castify"
+path = "src/main.rs"
+
+[dependencies]
+castify-core.workspace = true
+env_logger = "0.11"

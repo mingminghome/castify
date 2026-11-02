@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/core", "crates/ffi", "crates/cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/mingminghome/csvtv-receiver"
+rust-version = "1.74"
+
+[workspace.dependencies]
+castify-core = { path = "crates/core" }
+socket2 = { version = "0.5", features = ["all"] }
+log = "0.4"
